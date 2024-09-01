@@ -1,0 +1,139 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Estilo do corpo */
+body {
+    background-color: #cb6b9c;
+    color: #670441;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Estilo do título principal */
+h1 {
+    font-size: 36px;
+    color: #ff6f61;
+    margin-bottom: 20px;
+}
+
+/* Estilo da tabela */
+table {
+    width: 100%;
+    max-width: 600px; /* Limita a largura máxima da tabela */
+    margin: 0 auto; /* Centraliza a tabela horizontalmente */
+    border-collapse: collapse;
+    background-color: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 12px;
+}
+
+th {
+    background-color: #ff6f61;
+    color: #fff;
+    font-size: 18px;
+}
+
+td {
+    background-color: #fafafa;
+    font-size: 16px;
+}
+
+/* Estilo do formulário */
+form {
+    margin-top: 20px;
+    background-color: #fafafa;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 400px;
+    margin: 20px auto;
+}
+
+form label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 18px;
+    color: #333;
+    text-align: left;
+    width: 100%;
+}
+
+form input {
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 8px;
+    margin-bottom: 12px;
+    width: 100%;
+}
+
+form button {
+    background-color: #ff6f61;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    padding: 12px 20px;
+    transition: background-color 0.3s ease;
+    width: 100%;
+}
+
+form button:hover {
+    background-color: #e55b50;
+}
+
+/* Estilo do subtítulo */
+h2 {
+    font-size: 28px;
+    color: #333;
+    margin: 20px 0;
+}
+
+/* Estilo das listas não ordenadas */
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    margin: 20px 0;
+}
+
+ul li {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+/* Estilo das listas ordenadas */
+ol {
+    list-style-type: decimal;
+    padding-left: 20px;
+    margin: 20px 0;
+}
+
+ol li {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+/* Estilo para listas aninhadas */
+ul ul, ol ol {
+    list-style-type: circle;
+    padding-left: 20px;
+}
